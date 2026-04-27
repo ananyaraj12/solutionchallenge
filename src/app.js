@@ -26,7 +26,7 @@ app.get('/health', (req, res) => {
 
 // Root endpoint
 app.get('/', (req, res) => {
-    res.status(200).send('Smart Supply Chain API is running.');
+    res.status(200).send('LogiTrack AI API is running.');
 });
 
 module.exports = app;
