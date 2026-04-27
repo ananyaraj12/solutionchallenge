@@ -24,4 +24,9 @@ app.get('/health', (req, res) => {
     res.status(200).json({ status: 'OK', message: 'Backend is running' });
 });
 
+// Root endpoint
+app.get('/', (req, res) => {
+    res.status(200).send('Smart Supply Chain API is running.');
+});
+
 module.exports = app;
